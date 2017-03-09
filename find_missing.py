@@ -21,3 +21,5 @@ def find_missing(list1, list2):
         if occurrence == 1:
             return number
 
+    return 0 # if no occurrence of 1 was not found, return 0
+

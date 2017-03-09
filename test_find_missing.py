@@ -3,6 +3,7 @@ from unittest import TestCase
 from find_missing import find_missing
 
 class MissingNumberTest(TestCase):
+
     """docstring for MissingNumberTest"""
 
     def test_empty_list(self):
