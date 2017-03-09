@@ -117,7 +117,6 @@ class BinarySearchTest(TestCase):
             search2['index'],
             msg='should return {count: 5, index: 19} for 40'
         )
-
         self.assertGreater(
             4,
             search3['count'],
